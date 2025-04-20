@@ -1,0 +1,400 @@
+/* style.css */
+
+body{
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(10, 35, 77);
+    color: rgb(255, 221, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: system-ui;
+}
+
+nav ul {
+
+    list-style: none;
+    color: white;
+    display: flex;
+    margin-right: 16px;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: right;
+}
+
+nav ul li {
+
+    margin: 0 25px;
+}
+
+nav ul li a {
+    font-family: system-ui;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 27px;
+    word-spacing: 17px;
+}
+
+.acc-btn{
+    background-color: rgb(241, 238, 233);
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(255, 117, 4);
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(10, 35, 77);
+    color: white;
+    font-family: system-ui;
+}
+
+.hero-text{
+    max-width: 50%;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 31px;
+    margin-top: 0px;
+}
+
+.exchange-box{
+
+    background-color: rgb(208, 200, 199);
+    padding: 70px;
+    border-radius:  15px;
+    box-shadow: 9px 15px 8px black;
+    width: 500px;
+    margin-right: 190px;
+
+}
+
+.exchange-box form label{
+    font-weight: bold;
+    color: rgb(19, 17, 17);
+    display: block;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+.exchange-box form input{
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border:  2px solid rgba(42, 42, 41, 0.519);
+    border-radius: 10px;
+
+}
+
+.exchange-box form button{
+    width: 100%;
+    background-color: rgb(220, 9, 9);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.safety{
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-left: 700px;
+    float:right;
+    
+}
+
+.custom-image{
+    display: block;
+    display: flex;
+    align-items: first baseline;
+
+
+    margin-right: 80px;
+
+}
+
+.buycrypto{
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 60px;
+    align-items: center;
+
+}
+
+.buycrypto h2{
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-shadow: 1px 2px 1px rgb(236, 236, 236);
+}
+
+.Buybox{
+    margin-left: 90px;
+    background-color: rgba(174, 162, 184, 0.556);
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    box-shadow: 4px 6px 8px black;
+ }
+
+ .cal{
+    color: rgb(179, 193, 192);
+    font-weight: bolder;
+    font-size: 32px;
+
+ }
+
+ .Buybox form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.Buybox form input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+
+.Buybox form button{
+    width: 100%;
+    background-color: #777167 ;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    max-width: max-content;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#head{
+    background-color: rgb(10, 35, 77);
+}
+
+.section4{
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: bolder;
+    margin-top: 260px;
+    margin-left: 60px;
+}
+
+.photo4{
+    padding: 0px;
+    margin-top: 10px;
+    align-content: space-around;
+    box-sizing: border-box;
+    block-size: 400px;
+
+}
+
+.gift-btn{
+
+    font-family: system-ui;
+    margin-top: 1280x;
+    justify-content: right;
+    margin-left : 325px;
+    font-weight: bold;
+    width: 100%;
+    font-size: 62px;
+    background-color: rgb(31, 150, 104) ;
+
+    color: white;
+    border: 2px;
+    padding: 40px;
+    max-width: max-content;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.benefits{
+    background-color:rgb(10, 35, 77) ;
+    color: rgb(247, 237, 237);
+    text-align: center;
+    padding: 70px;
+}
+
+.benefits-list{
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+.benefits-list div {
+    box-shadow: 3px 4px 8px grey;
+    border-width: 15px black;
+    background-color: #3c3c3a;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.benefits h2{
+    font-family: system-ui, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 52px;
+    text-shadow: 3px 4px 8px grey ;
+}
+
+.world{
+    size-adjust: 22px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+}
+.world h2{
+    margin-left: 50px;
+    font-family: system-ui;
+    font-size: 42px;
+    margin-top: 80px;
+
+}
+
+
+footer {
+    background-color: rgb(10, 35, 77);
+    color: white;
+    padding: 30px;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.footer-content {
+    display: flex;
+    background-color: rgb(10, 35, 77);
+    margin-top: 190px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.company-info, .links, .newsletter {
+    max-width: 300px;
+    max-height: 323px;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui;
+    font-size: 18px;
+}
+
+.links ul {
+    list-style: none;
+    font-weight: bold;
+    padding: 0;
+
+
+}
+
+.links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter button {
+    width: 100%;
+    background-color: #0f4391;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 5%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
